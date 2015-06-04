@@ -7,4 +7,6 @@ module RouteDowncaser
 
   define_setting :redirect, false
   define_setting :exclude_patterns, [/assets\//i]
+  define_setting :use_whitelist, false
+  define_setting :whitelist_patterns, []
 end
